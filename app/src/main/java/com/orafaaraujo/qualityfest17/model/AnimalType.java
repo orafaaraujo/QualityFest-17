@@ -8,6 +8,11 @@ class AnimalType {
 
     private final String mType;
 
+    /**
+     * Constructor.
+     *
+     * @param type
+     */
     AnimalType(String type) {
         mType = type;
     }

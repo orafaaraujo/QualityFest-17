@@ -11,6 +11,13 @@ public class Person {
     private final House mHouse;
     private final Animal mAnimal;
 
+    /**
+     * Constructor.
+     * @param name
+     * @param alive
+     * @param house
+     * @param animal
+     */
     Person(String name, boolean alive, House house, Animal animal) {
         mName = name;
         mAlive = alive;

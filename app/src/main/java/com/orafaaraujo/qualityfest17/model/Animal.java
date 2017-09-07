@@ -10,6 +10,12 @@ class Animal {
 
     private final AnimalType mAnimalType;
 
+    /**
+     * Constructor.
+     *
+     * @param name
+     * @param animalType
+     */
     Animal(String name, AnimalType animalType) {
         mName = name;
         mAnimalType = animalType;

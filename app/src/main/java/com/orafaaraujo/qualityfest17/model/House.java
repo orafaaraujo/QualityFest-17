@@ -8,6 +8,11 @@ public class House {
 
     private final String mName;
 
+    /**
+     * Constructor.
+     *
+     * @param name
+     */
     House(String name) {
         mName = name;
     }
