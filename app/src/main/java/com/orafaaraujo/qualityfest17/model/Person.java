@@ -18,7 +18,7 @@ public class Person {
      * @param house
      * @param animal
      */
-    Person(String name, boolean alive, House house, Animal animal) {
+    public Person(String name, boolean alive, House house, Animal animal) {
         mName = name;
         mAlive = alive;
         mHouse = house;
