@@ -3,7 +3,7 @@ apply plugin: 'checkstyle'
 checkstyle {
     configFile file("${rootDir}/config/quality/checkstyle/checkstyle.xml")
     configProperties = ['checkstyle.java.header': file("${rootDir}/config/quality/checkstyle/java.header").getAbsolutePath()]
-    toolVersion = "6.11.2"
+    toolVersion = "8.2"
 }
 
 task checkstyle(type: Checkstyle) {
