@@ -7,12 +7,13 @@ package com.orafaaraujo.qualityfest17.model;
 public class Person {
 
     private final String mName;
-    private final boolean mAlive;
-    private final House mHouse;
-    private final Animal mAnimal;
+    private boolean mAlive;
+    private House mHouse;
+    private Animal mAnimal;
 
     /**
      * Constructor.
+     *
      * @param name
      * @param alive
      * @param house
@@ -23,6 +24,15 @@ public class Person {
         mAlive = alive;
         mHouse = house;
         mAnimal = animal;
+    }
+
+    /**
+     * Constructor
+     *
+     * @param name
+     */
+    public Person(String name) {
+        mName = name;
     }
 
     public String getName() {

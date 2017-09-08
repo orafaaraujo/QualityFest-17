@@ -16,4 +16,8 @@ class AnimalType {
     AnimalType(String type) {
         mType = type;
     }
+
+    public String getType() {
+        return mType;
+    }
 }
