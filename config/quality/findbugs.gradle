@@ -3,7 +3,7 @@ apply plugin: 'findbugs'
 task findbugs(type: FindBugs, dependsOn: "assembleDebug") {
     ignoreFailures = false
     effort = "max"
-    reportLevel = "high"
+    reportLevel = "low"
     excludeFilter = new File("${project.rootDir}/config/quality/findbugs/findbugs-filter.xml")
     classes = files("${project.rootDir}/app/build/intermediates/classes")
 

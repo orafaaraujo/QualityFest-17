@@ -20,4 +20,12 @@ class Animal {
         mName = name;
         mAnimalType = animalType;
     }
+
+    public String getName() {
+        return mName;
+    }
+
+    public AnimalType getAnimalType() {
+        return mAnimalType;
+    }
 }
